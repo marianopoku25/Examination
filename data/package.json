@@ -1,0 +1,23 @@
+{
+  "name": "a-frame",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "live-server --port=8080 .",
+    "watch": "aframe-watcher index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "css-brunch": "^2.10.0",
+    "javascript-brunch": "^2.10.0"
+  },
+  "dependencies": {
+    "aframe": "^1.7.1",
+    "aframe-watcher": "^1.4.0"
+  }
+}
